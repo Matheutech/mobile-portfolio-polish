@@ -6,7 +6,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import BackToTop from "@/components/BackToTop";
-import { ChevronDown, Terminal, Download, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Terminal, Download, Linkedin, Mail, Github, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -213,6 +213,22 @@ const Index = () => {
               className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-accent hover:border-accent/30 transition-all duration-300"
             >
               <Linkedin className="w-4 h-4" />
+            </a>
+            <a
+              href="https://github.com/Matheutech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-accent hover:border-accent/30 transition-all duration-300"
+            >
+              <Github className="w-4 h-4" />
+            </a>
+            <a
+              href="https://www.instagram.com/matheustechti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-accent hover:border-accent/30 transition-all duration-300"
+            >
+              <Instagram className="w-4 h-4" />
             </a>
             <a
               href="mailto:matheusrsousamrs@gmail.com"
