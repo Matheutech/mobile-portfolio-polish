@@ -6,7 +6,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import BackToTop from "@/components/BackToTop";
-import { ChevronDown, Terminal, Download, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Terminal, Download, Linkedin, Mail, Github, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
